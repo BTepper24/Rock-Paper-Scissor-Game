@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+<center>
+<section class="game">
+  <!-- Title -->
+  <div class="title">
+    Rock Paper Scissors
+  </div>
+  <!-- Scoreboard Display for User and AI -->
+
+  <div class="score">
+    <div class="playerScore">
+      <h2>Player</h2>
+      <p class="text-center" id="p-count"> 0 </p>
+    </div>
+    <div class="computerScore text-center">
+      <h2>Player</h2>
+      <p class="text-center" id="c-count"> 0 </p>
+    </div>
+    </div>
+<!-- Instructions -->
+
+    <div class="move">Choose your move</div>
+    <div class="options">
+      <button class="rock" onClick="chooseRock()">Rock</button>
+      <button class="paper" onClick="choosePaper()">Paper</button>
+      <button class="scissors" onClick="chooseScissors()">Scissors</button>
+    </div>
+
+    <!-- Show result of round -->
+    <div class="result">Who Will Win?</div>
+
+    <!-- Button to reset Score -->
+    <button class="reset" onClick = "computerSelect()">Reset</button>
+</section>
+
+
+
+<script src= "script.js"></script>
+  </body>
+</center>
+</html>
