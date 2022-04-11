@@ -1,0 +1,65 @@
+body{
+  background-image: linear-gradient(to right, green , yellow);
+}
+.title {
+  font-size: 28px;
+  font-family: "Apple Chancery, cursive";
+}
+h2 {
+  font-family: "Apple Chancery, cursive";
+}
+.move {
+  font-family: "Apple Chancery, cursive";
+  font-size: 20px;
+  text-decoration: underline;
+}
+.result {
+  font-family: "Apple Chancery, cursive";
+  font-size: 20px;
+  text-decoration: underline;
+}
+p {
+  font-size: 28px;
+  font-weight:bold;
+
+}
+.rock {
+  background-color: #7bd192;
+  color: black;
+  font-size: 25px;
+  border-radius:50%;
+  transition-duration: 0.4s;
+}
+.rock: hover{
+  background-color: Red;
+}
+.paper {
+  background-color: #7bd192;
+  color: black;
+  font-size: 25px;
+  border-radius:50%;
+  transition-duration: 0.4s;
+}
+.paper: hover{
+  background-color: Red;
+}
+.scissors {
+  background-color: #7bd192;
+  color: black;
+  font-size: 25px;
+  border-radius:50%;
+  transition-duration: 0.4s;
+}
+.scissors: hover{
+  background-color: Red;
+}
+.reset {
+  background-color: #7bd192;
+  color: black;
+  font-size: 25px;
+  border-radius:50%;
+  transition-duration: 0.4s;
+}
+.reset: hover{
+  background-color: aqua;
+}

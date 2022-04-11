@@ -2,15 +2,21 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Rock Paper Scissors</title>
+    <br>
+    <br>
   </head>
   <body>
 <center>
 <section class="game">
   <!-- Title -->
-  <div class="title">
+  <div class= "jumbotron title">
     Rock Paper Scissors
   </div>
+  <br>
+  <br>
   <!-- Scoreboard Display for User and AI -->
 
   <div class="score">
@@ -19,7 +25,7 @@
       <p class="text-center" id="p-count"> 0 </p>
     </div>
     <div class="computerScore text-center">
-      <h2>Player</h2>
+      <h2>Computer</h2>
       <p class="text-center" id="c-count"> 0 </p>
     </div>
     </div>
@@ -27,16 +33,23 @@
 
     <div class="move">Choose your move</div>
     <div class="options">
-      <button class="rock" onClick="chooseRock()">Rock</button>
-      <button class="paper" onClick="choosePaper()">Paper</button>
-      <button class="scissors" onClick="chooseScissors()">Scissors</button>
+      <button class="rock btn btn-primary" onClick="chooseRock()">Rock</button>
+      <br>
+      <br>
+      <button class="paper btn btn-primary" onClick="choosePaper()">Paper</button>
+      <br>
+      <br>
+      <button class="scissors btn btn-primary" onClick="chooseScissors()">Scissors</button>
     </div>
 
     <!-- Show result of round -->
-    <div class="result">Who Will Win?</div>
+    <div class= "result">
+      <p>Who Will Win?</p>
+      <p id="winnerDisplay"></p>
+    </div>
 
     <!-- Button to reset Score -->
-    <button class="reset" onClick = "computerSelect()">Reset</button>
+    <button class="reset btn btn-primary" onClick = "reset()">Reset</button>
 </section>
 
 
